@@ -1,0 +1,31 @@
+{
+  "name": "javascript-resturant-page",
+  "version": "1.0.0",
+  "description": "Reasturant Page created with help of JS",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.17.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham14p3/Javascript-Restaurant-Page.git"
+  },
+  "author": "Shubham Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubham14p3/Javascript-Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/shubham14p3/Javascript-Restaurant-Page#readme"
+}
