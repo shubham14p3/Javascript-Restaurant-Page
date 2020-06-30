@@ -2,11 +2,36 @@
 <html>
   <head>
     <title>Getting Started</title>
-
+    <link rel="stylesheet" href="src/assets/styles/main.css">
   </head>
   <body>
 	  <div id="content">
-		  
+		  <div class="material-tabs">
+  <div class="tabbed-section__selector">
+    <a class="tabbed-section__selector-tab-1 active" href="#">Tab 1</a>
+    <a class="tabbed-section__selector-tab-2" href="#">Tab 2</a>
+    <a class="tabbed-section__selector-tab-3" href="#">Tab 3</a>
+
+    <span class="tabbed-section__highlighter"></span>
+  </div>
+
+
+  <div class="tabbed-section-1 visible">
+    <h3>Hello World</h2>
+    <span class="divider"></span>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel modi facere eius, sapiente aut rerum quae consequatur temporibus nam iste voluptates velit placeat sunt natus quia cupiditate assumenda eum ratione.</p>
+  </div>
+  <div class="tabbed-section-2 hidden">
+    <h3>What is it ?</h3>
+    <span class="divider"></span>
+    <p>This is a small pen to show how to create a tabbed content & navigation, using vanilla Javascript</p>
+    <p>The style is following some Material design specifications</p>
+    <p>Feel free to fork, use, or share if you ever find it useful</p>
+  </div>
+  <div class="tabbed-section-3 hidden">
+    <img src="http://thecatapi.com/api/images/get?format=src&type=gif" alt="http://thecatapi.com/api/images/get?format=src&type=gif" />
+  </div>
+</div>
 	  </div>
     <script src="main.js"></script>
   </body>
