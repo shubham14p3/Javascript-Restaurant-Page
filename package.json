@@ -1,0 +1,27 @@
+{
+  "name": "Javascript-Restaurant-Page",
+  "version": "1.0.0",
+  "description": "> One paragraph statement about the project.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubham14p3/Javascript-Restaurant-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubham14p3/Javascript-Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/shubham14p3/Javascript-Restaurant-Page#readme",
+  "devDependencies": {
+    "lodash": "^4.17.15",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {}
+}
