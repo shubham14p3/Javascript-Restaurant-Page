@@ -8,12 +8,12 @@ const Menu = (function () {
   };
 
   const addFoodItems = () => {
-    const foodPaths = ['img/AppleRisotto.png', 'img/ChickenEggTempuraDon.png', 'img/ChaliapinSteakDon.png',
-      'img/SoupeDePoissonRamen.png', 'img/NaporitanCurryFettuccine.png', 'img/TosaWagyuSukiyaki.png', 'img/CapitoneInUmido.png',
-      'img/MapoDoufu.jpg', 'img/LazijiCaiman.png', 'img/TimeFuseMapoCurryNoodles.png', 'img/CharOkakiage.png',
-      'img/YuanStyleGrilledTokishirazu.png', 'img/YukihiraStyleBarleyFlourSoba.png', 'img/WhiteAmourPlateSauceChevreuil.png',
-      'img/SouffleLegerdeGrace.png', 'img/SpanishMackarel.png', 'img/RainbowTerrine.png',
-      'img/QuailStuffedwithRisottoandEggs.png', 'img/CanardApicius.png', 'img/MiniSouffleOmelette.png'];
+    const foodPaths = ['assets/img/AppleRisotto.png', 'assets/img/ChickenEggTempuraDon.png', 'assets/img/ChaliapinSteakDon.png',
+      'assets/img/SoupeDePoissonRamen.png', 'assets/img/NaporitanCurryFettuccine.png', 'assets/img/TosaWagyuSukiyaki.png', 'assets/img/CapitoneInUmido.png',
+      'assets/img/MapoDoufu.jpg', 'assets/img/LazijiCaiman.png', 'assets/img/TimeFuseMapoCurryNoodles.png', 'assets/img/CharOkakiage.png',
+      'assets/img/YuanStyleGrilledTokishirazu.png', 'assets/img/YukihiraStyleBarleyFlourSoba.png', 'assets/img/WhiteAmourPlateSauceChevreuil.png',
+      'assets/img/SouffleLegerdeGrace.png', 'assets/img/SpanishMackarel.png', 'assets/img/RainbowTerrine.png',
+      'assets/img/QuailStuffedwithRisottoandEggs.png', 'assets/img/CanardApicius.png', 'assets/img/MiniSouffleOmelette.png'];
 
     for (let i = 0; i < foodPaths.length; i += 1) {
       const foodDiv = document.createElement('div');

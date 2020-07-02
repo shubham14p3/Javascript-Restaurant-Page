@@ -25,17 +25,7 @@ const Contact = (function () {
     createInfo(timingDiv, '9:00am - 12:00am');
   };
 
-  const createPhoneDiv = () => {
-    const phoneDiv = document.createElement('div');
-    contactDiv.appendChild(phoneDiv);
-    phoneDiv.setAttribute('id', 'phoneDiv');
-    phoneDiv.innerHTML = '<i class="fa fa-3x fa-phone" aria-hidden="true"></i>';
-
-    createHeading(phoneDiv, 'Phone');
-    createInfo(phoneDiv, '1234567899');
-  };
-
-  const createEmailDiv = () => {
+ const createEmailDiv = () => {
     const emailDiv = document.createElement('div');
     contactDiv.appendChild(emailDiv);
     emailDiv.setAttribute('id', 'emailDiv');
@@ -56,8 +46,7 @@ const Contact = (function () {
   };
 
   const createContact = () => {
-    createTimingsDiv();
-    createPhoneDiv();
+    createTimingsDiv();   
     createEmailDiv();
     createLocationDiv();
     contentDiv.appendChild(contactDiv);

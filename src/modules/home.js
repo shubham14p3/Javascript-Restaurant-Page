@@ -25,7 +25,7 @@ const Home = (() => {
     const centerTextDiv = document.createElement('div');
     centerTextDiv.setAttribute('id', 'centerText');
     const text = document.createElement('span');
-    text.innerText = 'Inspired by FOOD-WAR anime \n You can free to order anything. ';
+    text.innerText = 'Inspired by FOOD-WAR anime \n You are free to order anything. ';
     contentDiv.appendChild(centerTextDiv);
     centerTextDiv.appendChild(text);
   };
