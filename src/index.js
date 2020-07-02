@@ -1,8 +1,9 @@
-import Home from "./modules/home";
-import Menu from "./modules/menu";
-import About from "./modules/about";
-import Contact from "./modules/contact";
-import Footer from "./modules/footer";
+import Home from './modules/home';
+import Menu from './modules/menu';
+import About from './modules/about';
+import Contact from './modules/contact';
+import Footer from './modules/footer';
+
 const Restaurant = (function () {
   const PAGE = {
     HOME: 1,
@@ -12,7 +13,7 @@ const Restaurant = (function () {
   };
   Home.loadNavigationBar();
   Home.createCenterText();
-  Footer.createFooter();  
+  Footer.createFooter();
   let currentPage = PAGE.HOME;
 
   const deleteNode = (node) => {
@@ -24,89 +25,89 @@ const Restaurant = (function () {
     containerDiv.remove();
   };
 
-  const menuButton = document.getElementById("menuButton");
-  menuButton.addEventListener("click", () => {
+  const menuButton = document.getElementById('menuButton');
+  menuButton.addEventListener('click', () => {
     switch (currentPage) {
       case PAGE.HOME:
-        deleteNode("centerText");
+        deleteNode('centerText');
         break;
       case PAGE.ABOUT:
-        deleteNode("aboutTextDiv");
+        deleteNode('aboutTextDiv');
         break;
       case PAGE.CONTACT:
-        deleteNode("contactInfo");
+        deleteNode('contactInfo');
         break;
       default:
         break;
     }
     if (currentPage !== PAGE.MENU) {
       currentPage = PAGE.MENU;
-	  Menu.loadMenu();
-	  deleteNode("footer");
+      Menu.loadMenu();
+      deleteNode('footer');
     }
   });
 
-  const homeButton = document.getElementById("homeButton");
-  homeButton.addEventListener("click", () => {
+  const homeButton = document.getElementById('homeButton');
+  homeButton.addEventListener('click', () => {
     switch (currentPage) {
       case PAGE.MENU:
-        deleteNode("menu");
+        deleteNode('menu');
         break;
       case PAGE.ABOUT:
-        deleteNode("aboutTextDiv");
+        deleteNode('aboutTextDiv');
         break;
       case PAGE.CONTACT:
-        deleteNode("contactInfo");
+        deleteNode('contactInfo');
         break;
       default:
         break;
     }
     if (currentPage !== PAGE.HOME) {
-      currentPage = PAGE.HOME;      
+      currentPage = PAGE.HOME;
     }
   });
 
-  const aboutButton = document.getElementById("aboutButton");
-  aboutButton.addEventListener("click", () => {
+  const aboutButton = document.getElementById('aboutButton');
+  aboutButton.addEventListener('click', () => {
     switch (currentPage) {
       case PAGE.MENU:
-        deleteNode("menu");
+        deleteNode('menu');
         break;
       case PAGE.HOME:
-        deleteNode("centerText");
+        deleteNode('centerText');
         break;
       case PAGE.CONTACT:
-        deleteNode("contactInfo");
+        deleteNode('contactInfo');
         break;
       default:
         break;
     }
     if (currentPage !== PAGE.ABOUT) {
       currentPage = PAGE.ABOUT;
-	  About.createAbout();
+      About.createAbout();
     }
   });
 
-  const contactButton = document.getElementById("contactButton");
-  contactButton.addEventListener("click", () => {
+  const contactButton = document.getElementById('contactButton');
+  contactButton.addEventListener('click', () => {
     switch (currentPage) {
       case PAGE.MENU:
-        deleteNode("menu");
+        deleteNode('menu');
         break;
       case PAGE.HOME:
-        deleteNode("centerText");
+        deleteNode('centerText');
         break;
       case PAGE.ABOUT:
-        deleteNode("aboutTextDiv");
+        deleteNode('aboutTextDiv');
         break;
       default:
         break;
     }
     if (currentPage !== PAGE.CONTACT) {
       currentPage = PAGE.CONTACT;
-	  Contact.createContact();
-	  Footer.createFooter(); 
+      Contact.createContact();
+      Footer.createFooter();
     }
-  });  
-})();
+  });
+}());
 export default Restaurant;

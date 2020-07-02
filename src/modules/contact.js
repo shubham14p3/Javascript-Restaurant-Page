@@ -25,7 +25,7 @@ const Contact = (function () {
     createInfo(timingDiv, '9:00am - 12:00am');
   };
 
- const createEmailDiv = () => {
+  const createEmailDiv = () => {
     const emailDiv = document.createElement('div');
     contactDiv.appendChild(emailDiv);
     emailDiv.setAttribute('id', 'emailDiv');
@@ -46,7 +46,7 @@ const Contact = (function () {
   };
 
   const createContact = () => {
-    createTimingsDiv();   
+    createTimingsDiv();
     createEmailDiv();
     createLocationDiv();
     contentDiv.appendChild(contactDiv);
