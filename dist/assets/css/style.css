@@ -64,7 +64,7 @@ html {
 #menuButton:hover,
 #contactButton:hover,
 #aboutButton:hover {
-  color: black;
+  color: yellow;
   transform: scale(1.1);
 }
 
