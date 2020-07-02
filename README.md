@@ -1,13 +1,49 @@
-# Resturant Page ON JS
+# Resturant Page with JS
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-In this project,we are building a Resturant made on Javascript.The tic-tac-toe game is created to play on the command line where two human players can play against each other and the board is displayed in between turns
+In this project,we are building a simple restaurant homepage made on Javascript. It is created with the help of ES6 modules, Webpack and much more. In this project we are continuly practicing DOM manipulation by dynamically rendering a simple restaurant homepage! By the end, we are going to be using JavaScript alone to generate the entire contents of the website!
 
 ### Landing Page
+
+![screenshot1](src/assets/images/landing.jpg)
+
+### Menu Page
+
+![screenshot1](src/assets/images/menu.jpg)
+
+### About Page
+
+![screenshot1](src/assets/images/about.jpg)
+
+### Contact Page
+
+![screenshot1](src/assets/images/contact.jpg)
+
+## Built With
+​
+- HTML
+- CSS
+- JavaScript
+
+## Getting Started
+​
+To get started with the app, cd to the directory where you would like the repo to live by typing on your terminal:
+​
+Clone the repo typing:
+​
+```
+$git clone https://github.com/shubham14p3/Javascript-Restaurant-Page.git
+```
+
+run the following command
+```
+$npm run build
+```
+open up the index file using any live server
 
 ## Authors
 
@@ -32,9 +68,8 @@ Give a ⭐️ if you like this project!
 
 ## Future Enhancement
 
-- Adding Validation.
-- Adding AI Logic.
-- Making the UI, Mobile friendly.
+- Adding API Calls for Tracking, Gmap, etc.
+- Adding Payment Gateways.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
