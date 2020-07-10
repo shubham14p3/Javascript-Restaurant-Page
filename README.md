@@ -1,4 +1,4 @@
-# Resturant Page with JS
+# Resturant Page with Javascript
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -33,7 +33,7 @@ In this project,we are building a simple restaurant homepage made on Javascript.
 ​
 To get started with the app, cd to the directory where you would like the repo to live by typing on your terminal:
 ​
-Clone the repo typing:
+Clone the repo typing :
 ​
 ```
 $git clone https://github.com/shubham14p3/Javascript-Restaurant-Page.git
