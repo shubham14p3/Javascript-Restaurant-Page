@@ -70,6 +70,7 @@ Give a ⭐️ if you like this project!
 
 - Adding API Calls for Tracking, Gmap, etc.
 - Adding Payment Gateways.
+- Adding Responsivness to the project.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
