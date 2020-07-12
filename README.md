@@ -42,8 +42,16 @@ $git clone https://github.com/shubham14p3/Javascript-Restaurant-Page.git
 run the following command
 ```
 $npm run build
+
 ```
 open up the index file using any live server
+
+## Live Demo
+
+- [Production](https://rawcdn.githack.com/shubham14p3/Javascript-Restaurant-Page/d5f6f53bd85f5730e1a39ee1515770ec0bc081c6/dist/index.html)
+
+
+- [Development](https://raw.githack.com/shubham14p3/Javascript-Restaurant-Page/master/dist/index.html)
 
 ## Authors
 
