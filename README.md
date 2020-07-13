@@ -5,7 +5,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-In this project,we are building a simple restaurant homepage made on Javascript. It is created with the help of ES6 modules, Webpack and much more. In this project we are continuly practicing DOM manipulation by dynamically rendering a simple restaurant homepage! By the end, we are going to be using JavaScript alone to generate the entire contents of the website!
+In this project,we are building a simple restaurant homepage made on Javascript. It is created with the help of ES6 modules, Webpack and much more. In this project we are continuly practicing DOM manipulation by dynamically rendering a simple restaurant homepage! By the end, we are going to be using JavaScript alone to generate the entire contents of the website!!
 
 ### Landing Page
 
